@@ -2,7 +2,7 @@
 require("config.lazy")
 
 -- Set Default shell to powershell
-  vim.o.shell = "pwsh.exe" 
+  vim.o.shell = "pwsh" 
 
 vim.cmd([[colorscheme catppuccin]])
 
